@@ -1,6 +1,6 @@
 # EcpWebView
 
-Thi is a WKWebView wrapper. NetworkActivityIndicator is automatically turned on during loading and turned off when finished loading.
+This is only a WKWebView wrapper. NetworkActivityIndicator is automatically turned on during loading and turned off on finish loading.
 
 ## Installation
 
