@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EcpWebView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WKWebView with NetworkActivityIndicator"
 
   s.description  = <<-DESC

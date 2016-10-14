@@ -23,6 +23,7 @@ public class EcpWebView: WKWebView {
     }
 
     deinit {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
         removeObserver(self, forKeyPath: "loading")
     }
 
