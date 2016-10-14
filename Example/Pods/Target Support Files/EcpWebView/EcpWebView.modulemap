@@ -1,0 +1,6 @@
+framework module EcpWebView {
+  umbrella header "EcpWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

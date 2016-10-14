@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EcpplusWebView.xcodeproj">
+      location = "self:EcpWebViewExample.xcodeproj">
    </FileRef>
 </Workspace>

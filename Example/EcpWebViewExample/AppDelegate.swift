@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  EcpplusWebView
+//  EcpWebViewExample
 //
 //  Created by chu on 10/14/16.
 //  Copyright © 2016 chu. All rights reserved.
