@@ -1,0 +1,6 @@
+{
+  "name": "Ecpwebview",
+  "tagline": "WKWebView wrapper",
+  "body": "# EcpWebView\r\n\r\nThis is only a WKWebView wrapper. NetworkActivityIndicator is automatically turned on during loading and turned off on finish loading.\r\n\r\n## Installation\r\n\r\nYou can install via CocoaPods\r\n\r\n```ruby\r\n# required Swift 3.0\r\npod 'EcpWebView'\r\n```\r\n\r\n## Usage\r\n\r\nYou can simply replace `WKWebView` to `EcpWebView`\r\n\r\n```swift\r\nlet webView = EcpWebView()\r\nview.addSubview(webView)\r\n\r\nlet req = URLRequest(url: URL(string: \"https://memo.ecp.plus/\")!)\r\nwebView.load(req)\r\n```\r\n\r\n`WKWebView` can't be used in StoryBoards, so the code following will help you. \r\n\r\n```swift\r\nwebView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true\r\nwebView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true\r\nwebView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true\r\nwebView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true\r\n```",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
